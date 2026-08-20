@@ -17,9 +17,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Reference Include="McAdminPlugins">
-        <HintPath>..\Git\mcmngmt\src\plugin\bin\Release\net10.0\McAdminPlugins.dll</HintPath>
-      </Reference>
+        <ProjectReference Include="..\mcadmin\API\src\McAdminPlugins.csproj" />
     </ItemGroup>
 
     <ItemGroup>

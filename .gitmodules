@@ -1,0 +1,3 @@
+[submodule "mcadmin"]
+	path = mcadmin
+	url = https://github.com/McAdminApp/McAdmin.git
