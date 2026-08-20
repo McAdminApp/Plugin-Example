@@ -2,7 +2,7 @@
 
 namespace PluginExample;
 
-public class BipBop(IPluginNavigation nav, IServerPluginFiles files) : IPlugin
+public class MyPlugin(IPluginNavigation nav, IServerPluginFiles files) : IPlugin
 {
     public static IServerPluginFiles? Files { get; private set; }
     
